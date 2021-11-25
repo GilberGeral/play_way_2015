@@ -1,0 +1,47 @@
+<!DOCTYPE html >
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>PLay way</title>
+		<style>
+		body{
+				position:absolute;
+				padding:0px;
+				background-color: #000;
+			}
+			/*
+			canvas{
+				position:absolute;
+				padding:0px;
+			}
+			*/
+		</style>
+		
+		<script type="text/javascript" src="game.js"></script>
+</head>
+
+<body style="margin:0; padding:0;">
+
+<canvas id="canvas" ></canvas>
+ <!--
+<script type="text/javascript" src="cordova.js"></script>-->
+
+<script>
+
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://html5.api.gamedistribution.com/main.min.js';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'gamedistribution-jssdk'));
+
+</script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,13 @@
+{
+  "instant_games": {
+    "platform_version": "RICH_GAMEPLAY",
+    "custom_update_templates": {
+      "play_turn": {
+        "example": "Edgar played their move"
+      }
+    }
+  },
+	"FB_appId":"256653445175284",
+    "FB_uploadAccessToken": "EAAYsfZAxiFmMBANgqzUGHTkqBCMMuUO40p7ZANTYs8EkQWS3oH0Vuodp9K42XeEN7D6dgUsXWzKaWxj3UniKFdveTCcJcA7CZAP8GjjBfPUrBhwDS3DGR2cYeEDnIGSXGNegtva0RyTAIhP2n81rBlORvGdzfGiZAZCnVh8FKywZDZD"
+		
+}
